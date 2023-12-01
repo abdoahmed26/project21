@@ -23,7 +23,7 @@ const Aside = () => {
     };
     return (
         <Box sx={{bgcolor: 'background.paper' }}
-        className='pt-3 overflow-auto w-[60px] md:w-[245px] border-e fixed' style={{height:"100vh"}}>
+        className='pt-3 overflow-auto w-[60px] md:w-[250px] border-e fixed' style={{height:"100vh"}}>
             <div className='flex justify-center border-b pb-2'>
                 <div>
                     <img src={img1} alt="" className='mx-auto w-10 h-10 md:w-20 md:h-20  border border-gray-800 
