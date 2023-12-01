@@ -3,7 +3,7 @@ import MyResponsiveLine from './Data';
 
 const Line = () => {
     return (
-        <div className='py-5 px-6 ms-[60px] md:ms-[245px]'>
+        <div className='py-5 px-6'>
             <div className="title">
                 <div>
                     <h1 className='text-2xl text-blue-500 font-bold'>Line Chart</h1>

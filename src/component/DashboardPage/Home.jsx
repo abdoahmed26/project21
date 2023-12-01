@@ -8,7 +8,7 @@ import Part4 from './Part4';
 
 const Home = () => {
     return (
-        <div className='py-5 px-6 ms-[60px] md:ms-[245px]'>
+        <div className='py-5 px-6'>
             <div className="title flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center">
                 <div>
                     <h1 className='uppercase text-2xl text-blue-500 font-bold'>dashboard</h1>

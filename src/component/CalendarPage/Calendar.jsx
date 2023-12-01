@@ -84,7 +84,7 @@ const Calendar = () => {
         setcurrentEvents(events);
     };
     return (
-        <div className="py-5 px-6 ms-[60px] md:ms-[245px] flex flex-col lg:flex-row gap-8 lg:gap-4">
+        <div className="py-5 px-6 flex flex-col lg:flex-row gap-8 lg:gap-4">
             <Paper className="demo-app-sidebar p-3 w-full sm:w-[300px]">
                 <h2 className="text-center font-bold text-2xl mb-2">All Events ({currentEvents.length})</h2>
                 <ul>{currentEvents.map(renderSidebarEvent)}</ul>

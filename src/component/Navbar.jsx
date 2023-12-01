@@ -170,7 +170,7 @@ export default function PrimarySearchAppBar({setMode}) {
     );
 
     return (
-        <Box sx={{ flexGrow: 1 }} className="ms-[60px] md:ms-[245px] sticky top-0 z-50">
+        <Box sx={{ flexGrow: 1 }} className="ms-[60px] md:ms-[260px] sticky top-0 z-50">
             <AppBar position="static">
                 <Toolbar>
                     <Search>

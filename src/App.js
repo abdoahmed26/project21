@@ -36,7 +36,7 @@ function App() {
             <Aside/>
             <div className=' w-full'>
               <PrimarySearchAppBar setMode={setMode}/>
-              <div>
+              <div className="ms-[60px] md:ms-[260px]">
                 <Routes>
                   <Route path='/' element={<Navigate to={"dashboard"}/>}/>
                   <Route path='dashboard' element={<Home/>}/> 

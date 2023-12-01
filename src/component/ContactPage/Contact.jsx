@@ -3,7 +3,7 @@ import DataCont from './DataCont';
 
 const Contact = () => {
     return (
-        <div className='py-5 px-6 ms-[60px] md:ms-[245px]'>
+        <div className='py-5 px-6'>
             <div className="title">
                 <div>
                     <h1 className='uppercase text-2xl text-blue-500 font-bold'>CONTACTS</h1>
